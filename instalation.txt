@@ -1,3 +1,4 @@
 Hola mundo
 
-1. Debe instalar git
+1. Abrir cuenta en git hub.
+2. Instalar git con el comando apt-get install git
