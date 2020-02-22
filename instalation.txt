@@ -2,3 +2,4 @@ Hola mundo
 
 1. Abrir cuenta en git hub.
 2. Instalar git con el comando apt-get install git
+3. Configura git hub con git config --global user.name "username" 
