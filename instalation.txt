@@ -7,5 +7,8 @@ Hola mundo
 	git init // inicia repositorio
 	git add nombrearchivo // añade archivo al staging
 	git rm --cached // elimina git add
+	git reset HEAD // elimina del staging
 	git commit -m "es un commit" //subir cambios
 	git diff commit1 commit2 //verifica los cambios
+	git reset --hard //borra todos los cambios
+
