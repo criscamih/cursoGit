@@ -1,8 +1,12 @@
 body{   
-    color: red;
     padding: 0;
     margin: 0;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+    border:1px solid blue;
+    background: darkblue;
+    margin-bottom: 100px;
 }
 .container{
     border: 1px solid red;
@@ -11,4 +15,8 @@ body{
     text-align: center;
     margin: 0 auto;
     padding: 1rem;
+}
+.menu{
+    color: white;
+    font-weight: 800;
 }
