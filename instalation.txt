@@ -3,3 +3,9 @@ Hola mundo
 1. Abrir cuenta en git hub.
 2. Instalar git con el comando apt-get install git
 3. Configura git hub con git config --global user.name "username" 
+4. Comandos base:
+	git init // inicia repositorio
+	git add nombrearchivo // añade archivo al staging
+	git rm --cached // elimina git add
+	git commit -m "es un commit" //subir cambios
+	git diff commit1 commit2 //verifica los cambios
