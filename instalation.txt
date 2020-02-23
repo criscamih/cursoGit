@@ -1,4 +1,4 @@
-Hola mundo
+Comandos git
 
 1. Abrir cuenta en git hub.
 2. Instalar git con el comando apt-get install git
@@ -11,4 +11,14 @@ Hola mundo
 	git commit -m "es un commit" //subir cambios
 	git diff commit1 commit2 //verifica los cambios
 	git reset --hard //borra todos los cambios
+	git commit -am "commit" //git add + git commit
+5. Comandos remoto:
+	git clone url
+	git push //subir cambios
+	git fetch //actualizar rama
+	git merge //unir cambios de las ramas
+	git pull // fetch + merge
+	git branch nombrerama //crear rama
+	git checkout nombrerama //apuntar el HEAD a la rama
+	
 
