@@ -14,11 +14,14 @@ Comandos git
 	git commit -am "commit" //git add + git commit
 5. Comandos remoto:
 	git clone url
+	git remote add origin url //desde local conectarse al repo remoto
+	git pull orgin master --allow-unrelated-histories //actualizar el repo con el local
 	git push //subir cambios
 	git fetch //actualizar rama
 	git merge //unir cambios de las ramas
 	git pull // fetch + merge
 	git branch nombrerama //crear rama
+	git remote //saber a que rama del  repo está apuntando
 	git checkout nombrerama //apuntar el HEAD a la rama
 	
 
