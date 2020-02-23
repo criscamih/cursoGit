@@ -14,7 +14,8 @@ Comandos git
 	git commit -am "commit" //git add + git commit
 5. Comandos remoto:
 	git clone url
-	git remote add origin url //desde local conectarse al repo remoto
+	git remote add origin url //desde local conectarse al repo remoto sinllave la url empieza con https
+	git remote set-url origin urlssh/la url de tipo ssh de github
 	git pull orgin master --allow-unrelated-histories //actualizar el repo con el local
 	git push //subir cambios
 	git fetch //actualizar rama
@@ -24,4 +25,12 @@ Comandos git
 	git remote //saber a que rama del  repo está apuntando
 	git checkout nombrerama //apuntar el HEAD a la rama
 	
-
+6. Crear llaves de seguridad:
+	comando: ssh-keygen -t rsa -b 4096 -C "correo"
+	 Unas vez creada tener en cuenta la ruta donde se creó.
+	-Revisar el servidor ssh
+	comando: eval $(ssh-agent -s)
+	-Agregar la llave
+	comando: ssh-add rutadondeestalallave
+	-Usar la llave publica para añadirla al ssh de github
+	
